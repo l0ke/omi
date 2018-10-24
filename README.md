@@ -40,7 +40,7 @@ On the left is Omi, the right side is React, and Omi uses Shadow DOM based style
 	- [Hello Element](#hello-element)
 	- [TodoApp](#todoapp)
 	- [Store](#store)
-		- [Summary：](#summary)
+		- [Summary](#summary)
 	- [Lifecycle](#lifecycle)
 - [Component Ecosystem](#component-ecosystem)
 - [Debugging](#debugging)
@@ -403,7 +403,7 @@ render(<todo-app />, "body", store);
 
 [→ Store Source Code](https://github.com/Tencent/omi/blob/master/packages/omi/examples/store/main.js)
 
-#### Summary：
+#### Summary
 
 - `store.data` is used to list all attributes and default values (except the components of the view decided by props).
 - The static data of the element is used to list the attributes of the dependent store.data _(Omi will record path)_ and update on demand.
